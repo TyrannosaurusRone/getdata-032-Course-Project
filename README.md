@@ -23,8 +23,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4.Appropriately labels the data set with descriptive variable names. 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-##In this repo:
-
 ##How run_analysis.R works
 
 ###In order for this code to work in one go, the files "activity_labels.txt", "features.txt", "X_test.txt", "Y_test.txt, "X_train.txt" and "Y_train.txt" must all be in the same working directory. Otherwise if you are reading in the files as the are in the UCI HAR Dataset file, you must run the initial steps of the code in stages and change working directory as you go.
@@ -47,3 +45,9 @@ Use the following code to read in the tidy data .txt files in this repo and view
 
 data <- read.table(file_path, header = TRUE) 
     View(data)
+
+##In this repo:
+
+1. README.md
+2. run_analysis.R
+3. CodeBook.md
